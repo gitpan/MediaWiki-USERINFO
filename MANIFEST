@@ -1,0 +1,14 @@
+Changes
+LICENSE
+MANIFEST
+META.json
+META.yml
+Makefile.PL
+README
+bin/mediawiki-userinfo
+dist.ini
+lib/MediaWiki/USERINFO.pm
+lib/MediaWiki/USERINFO/User.pm
+t/01_compile.t
+t/data/git-users.txt
+t/userinfo.t

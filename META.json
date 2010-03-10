@@ -1,0 +1,51 @@
+{
+   "no_index" : {
+      "directory" : [
+         "inc",
+         "t",
+         "xt"
+      ]
+   },
+   "resources" : {
+      "repository" : "http://github.com/avar/mediawiki-userinfo",
+      "homepage" : "http://search.cpan.org/dist/MediaWiki-USERINFO/",
+      "bugtracker" : "http://github.com/avar/mediawiki-userinfo/issues",
+      "license" : "http://dev.perl.org/licenses/",
+      "Ratings" : "http://cpanratings.perl.org/d/MediaWiki-USERINFO"
+   },
+   "generated_by" : "Dist::Zilla version 1.100660",
+   "meta-spec" : {
+      "version" : 1.4,
+      "url" : "http://module-build.sourceforge.net/META-spec-v1.4.html"
+   },
+   "version" : "0.01",
+   "name" : "MediaWiki-USERINFO",
+   "author" : [
+      "\u00c3\u0086var Arnfj\u00c3\u00b6r\u00c3\u00b0 Bjarmason <avar@cpan.org>"
+   ],
+   "license" : "perl",
+   "build_requires" : {},
+   "requires" : {
+      "MooseX::Types::Moose" : "0.21",
+      "Test::utf8" : "0",
+      "MooseX::Getopt::Dashes" : "0",
+      "Email::Valid" : "0",
+      "YAML::Syck" : "0",
+      "MooseX::Getopt" : "0.26",
+      "Test::More" : "0.88",
+      "namespace::clean" : "0",
+      "perl" : "5.010",
+      "MooseX::StrictConstructor" : "0.08",
+      "MooseX::Types::Path::Class" : "0.05",
+      "MooseX::Types" : "0.21",
+      "Data::Dump" : "0",
+      "autodie" : "0",
+      "List::MoreUtils" : "0",
+      "Moose" : "0.94"
+   },
+   "abstract" : "Parse the F<USERINFO/> files in MediaWiki's Subversion repository",
+   "configure_requires" : {
+      "ExtUtils::MakeMaker" : "6.11"
+   }
+}
+

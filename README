@@ -1,0 +1,28 @@
+NAME
+    MediaWiki::USERINFO - Parse the USERINFO/ files in MediaWiki's
+    Subversion repository
+
+DESCRIPTION
+    MediaWiki's subversion repository contains a USERINFO
+    <http://svn.wikimedia.org/svnroot/mediawiki/USERINFO/> directory. This
+    module knows how to parse files therein, look up usernames (or aliases),
+    de-obfuscate the "email:" field in the USERINFO files and more.
+
+    See the t/userinfo.t test file in the distribution for what it can do.
+    This module was mainly written to find out what users were missing
+    USERINFO files (or essential fields) for the proposed MediaWiki -> Git
+    conversion.
+
+    This module can generate a program to be used with "git filter-branch
+    --env-filter" to rename svn users in a "git svn" generated MediaWiki
+    repository to real names/email pairs.
+
+AUTHOR
+    Ævar Arnfjörð Bjarmason <avar@cpan.org>
+
+LICENSE AND COPYRIGHT
+    Copyright 2010 Ævar Arnfjörð Bjarmason <avar@cpan.org>
+
+    This program is free software, you can redistribute it and/or modify it
+    under the same terms as Perl itself.
+
