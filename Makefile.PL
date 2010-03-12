@@ -23,7 +23,7 @@ my %WriteMakefileArgs = (
                        'EXE_FILES' => [
                                         'bin/mediawiki-userinfo'
                                       ],
-                       'VERSION' => '0.03',
+                       'VERSION' => '0.04',
                        'PREREQ_PM' => {
                                         'MooseX::Types::Moose' => '0',
                                         'Email::Valid' => '0',

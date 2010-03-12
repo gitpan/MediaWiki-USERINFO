@@ -38,4 +38,4 @@ resources:
   homepage: http://search.cpan.org/dist/MediaWiki-USERINFO/
   license: http://dev.perl.org/licenses/
   repository: http://github.com/avar/mediawiki-userinfo
-version: 0.03
+version: 0.04
