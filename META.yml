@@ -19,6 +19,7 @@ no_index:
 requires:
   Data::Dump: 0
   Email::Valid: 0
+  IPC::System::Simple: 0
   List::MoreUtils: 0
   Moose: 0.94
   MooseX::Getopt: 0.26
@@ -39,4 +40,4 @@ resources:
   homepage: http://search.cpan.org/dist/MediaWiki-USERINFO/
   license: http://dev.perl.org/licenses/
   repository: http://github.com/avar/mediawiki-userinfo
-version: 0.01
+version: 0.02

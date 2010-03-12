@@ -1,5 +1,5 @@
 package MediaWiki::USERINFO::User;
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 use 5.10.0;
 use Moose;
 use MooseX::StrictConstructor;

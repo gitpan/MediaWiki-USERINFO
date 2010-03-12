@@ -23,23 +23,24 @@ my %WriteMakefileArgs = (
                        'EXE_FILES' => [
                                         'bin/mediawiki-userinfo'
                                       ],
-                       'VERSION' => '0.01',
+                       'VERSION' => '0.02',
                        'PREREQ_PM' => {
                                         'MooseX::Types::Moose' => '0.21',
-                                        'Test::utf8' => '0',
-                                        'MooseX::Getopt::Dashes' => '0',
                                         'Email::Valid' => '0',
-                                        'YAML::Syck' => '0',
                                         'MooseX::Getopt' => '0.26',
-                                        'Test::More' => '0.88',
-                                        'namespace::clean' => '0',
                                         'MooseX::StrictConstructor' => '0.08',
-                                        'MooseX::Types::Path::Class' => '0.05',
-                                        'MooseX::Types' => '0.21',
                                         'Data::Dump' => '0',
                                         'autodie' => '0',
                                         'List::MoreUtils' => '0',
-                                        'Moose' => '0.94'
+                                        'Moose' => '0.94',
+                                        'Test::utf8' => '0',
+                                        'MooseX::Getopt::Dashes' => '0',
+                                        'YAML::Syck' => '0',
+                                        'Test::More' => '0.88',
+                                        'IPC::System::Simple' => '0',
+                                        'namespace::clean' => '0',
+                                        'MooseX::Types::Path::Class' => '0.05',
+                                        'MooseX::Types' => '0.21'
                                       },
                        'LICENSE' => 'perl'
                      );
