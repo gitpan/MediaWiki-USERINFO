@@ -13,31 +13,29 @@ meta-spec:
 name: MediaWiki-USERINFO
 no_index:
   directory:
-    - inc
     - t
-    - xt
 requires:
-  Data::Dump: 0
   Email::Valid: 0
+  Encode: 0
+  File::Slurp: 0
+  File::Spec::Functions: 0
+  File::Temp: 0
   IPC::System::Simple: 0
   List::MoreUtils: 0
-  Moose: 0.94
-  MooseX::Getopt: 0.26
+  Moose: 0
   MooseX::Getopt::Dashes: 0
-  MooseX::StrictConstructor: 0.08
-  MooseX::Types: 0.21
-  MooseX::Types::Moose: 0.21
-  MooseX::Types::Path::Class: 0.05
-  Test::More: 0.88
+  MooseX::StrictConstructor: 0
+  MooseX::Types::Moose: 0
+  Test::More: 0
   Test::utf8: 0
   YAML::Syck: 0
   autodie: 0
   namespace::clean: 0
-  perl: 5.010
+  perl: 5.10.0
 resources:
   Ratings: http://cpanratings.perl.org/d/MediaWiki-USERINFO
   bugtracker: http://github.com/avar/mediawiki-userinfo/issues
   homepage: http://search.cpan.org/dist/MediaWiki-USERINFO/
   license: http://dev.perl.org/licenses/
   repository: http://github.com/avar/mediawiki-userinfo
-version: 0.02
+version: 0.03

@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 
- BEGIN { require 5.010; } 
+ BEGIN { require 5.10.0; } 
 
 use ExtUtils::MakeMaker 6.11;
 
@@ -23,24 +23,24 @@ my %WriteMakefileArgs = (
                        'EXE_FILES' => [
                                         'bin/mediawiki-userinfo'
                                       ],
-                       'VERSION' => '0.02',
+                       'VERSION' => '0.03',
                        'PREREQ_PM' => {
-                                        'MooseX::Types::Moose' => '0.21',
+                                        'MooseX::Types::Moose' => '0',
                                         'Email::Valid' => '0',
-                                        'MooseX::Getopt' => '0.26',
-                                        'MooseX::StrictConstructor' => '0.08',
-                                        'Data::Dump' => '0',
+                                        'Encode' => '0',
+                                        'MooseX::StrictConstructor' => '0',
                                         'autodie' => '0',
+                                        'File::Spec::Functions' => '0',
                                         'List::MoreUtils' => '0',
-                                        'Moose' => '0.94',
+                                        'Moose' => '0',
+                                        'File::Slurp' => '0',
                                         'Test::utf8' => '0',
                                         'MooseX::Getopt::Dashes' => '0',
                                         'YAML::Syck' => '0',
-                                        'Test::More' => '0.88',
                                         'IPC::System::Simple' => '0',
+                                        'Test::More' => '0',
                                         'namespace::clean' => '0',
-                                        'MooseX::Types::Path::Class' => '0.05',
-                                        'MooseX::Types' => '0.21'
+                                        'File::Temp' => '0'
                                       },
                        'LICENSE' => 'perl'
                      );

@@ -1,5 +1,5 @@
 package MediaWiki::USERINFO;
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 use 5.10.0;
 use autodie ':all';
 use Moose;
